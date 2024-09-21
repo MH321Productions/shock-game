@@ -31,5 +31,6 @@
 *.out
 *.app
 
-# Build directory
+# Internal directories
 build/
+.idea/

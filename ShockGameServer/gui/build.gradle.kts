@@ -4,7 +4,7 @@ plugins {
 }
 
 group = "io.github.MH321Productions.ShockGameServer"
-version = "0.0.1"
+version = properties["mainVersion"] as String
 
 repositories {
     mavenCentral()

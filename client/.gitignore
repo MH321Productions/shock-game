@@ -34,3 +34,6 @@
 # Internal directories
 build/
 .idea/
+
+# Generated resources
+*.spv

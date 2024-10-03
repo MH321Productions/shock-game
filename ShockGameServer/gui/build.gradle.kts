@@ -11,6 +11,9 @@ repositories {
 }
 
 dependencies {
+    implementation("com.miglayout:miglayout-swing:11.4.2")
+    implementation(project(":server"))
+
     testImplementation(kotlin("test"))
 }
 

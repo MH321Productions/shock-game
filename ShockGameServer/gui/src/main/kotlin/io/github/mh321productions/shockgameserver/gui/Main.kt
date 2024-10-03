@@ -1,10 +1,11 @@
 package io.github.mh321productions.shockgameserver.gui
 
-fun main() {
-    val name = "Kotlin"
-    println("Hello, $name!")
+import io.github.mh321productions.shockgameserver.gui.widgets.MainFrame
+import java.awt.EventQueue
 
-    for (i in 1..5) {
-        println("i = $i")
+fun main() {
+    EventQueue.invokeLater {
+        val frame = MainFrame()
+        frame.isVisible = true
     }
 }
